@@ -4,7 +4,7 @@ import com.kodilla.testing.user.Calculator;
 import com.kodilla.testing.user.SimpleUser;
 
 public class TestingMain {
-    public static void main(String[] args) {
+    public static void main() {
         SimpleUser simpleUser = new SimpleUser("theForumUser");
 
         String result = simpleUser.getUsername();
