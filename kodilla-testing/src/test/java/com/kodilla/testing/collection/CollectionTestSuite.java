@@ -34,8 +34,9 @@ public class CollectionTestSuite {
         //Given
         OddNumbersExterminator oddNumExterminator2 = new OddNumbersExterminator();
         //When
-        int size = oddNumExterminator2.checkIfEmpty(new ArrayList<>());
+        List<Integer> result = oddNumExterminator2.exterminate(new ArrayList<>());
         //Then
+        int size = result.size();
         Assert.assertEquals(0,size);
     }
 }
